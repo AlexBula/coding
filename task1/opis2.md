@@ -27,6 +27,15 @@ Powyzsza petla for zakonczy sie kiedy uzytkownik przestanie przekazywac swoje li
 
 Do posortowania liczb mozna uzyc listy i funkcji sort. Wiecej info ponizej
 
+# Testowanie
+
+Mozecie przetestowac swoj program uzywajac dostarczonego programu `test.sh`.
+Zrobicie to w nastepujacy sposob:
+* wchodzicie do folderu **tests**
+* piszecie: `./test.sh sciezka_do_waszego_pliku_py`
+* jezeli dostaniecie komunikat "permission denied" musicie napisac `chmod +x ./test.sh`
+* sciezka do waszego programu dostaniecie poprzez wejscie do folderu z waszym programem,
+wywolanie komendy `pwd` - dostaniecie sciezke do ktorej musicie dodac "/nazwa_waszego_pliku"
 
 # Wskazowki
 
