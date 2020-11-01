@@ -14,14 +14,14 @@ Polecam uzycie sys.stdin (aby z niego skorzystac trzeba podobnie jak w przypadku
 dodac linie "import sys" na gorze pliku).
 
 Zeby przeczytac dowolna liczbe argumentow mozecie skorzystac z nastepujacej konstrukcji:
-'''
+```
 import sys
 
 for line in sys.stdin:
   print(line)
 
 print("koniec danych od uzytkownika")
-'''
+```
 
 Powyzsza petla for zakonczy sie kiedy uzytkownik przestanie przekazywac swoje liczby.
 
@@ -42,23 +42,21 @@ poniwaz nie znamy liczb ktore przekaze nam uzytkownik
 Mozemy jednak uzyc do tego listy - czyli typu ktory jest w stanie trzymac duza liczbe roznych
 wartosci. Lista jest typem w pythonie tak jak wspominane int, str, float, bool.
 
-Aby stworzyc nowa pusta liste mozemy napisac cos takiego:
-'''
-lista = []
-'''
+Aby stworzyc nowa pusta liste mozemy napisac cos takiego: `lista = []`
+
 
 Aby dodac nowy element do listy uzywamy funkcji / metody "append()", np:
-'''
+```
 lista = []
 lista.append(5)
 lista.append(2)
 lista.append(3)
 print(lista)
-'''
-wypisze nam [5,2,3]
+```
+wypisze nam `[5,2,3]`
 
-Piszac "lista.append(x)" mowimy pythonowi, ze nasza zmienna lista ma dodac do siebie zmienna x
+Piszac `lista.append(x)` mowimy pythonowi, ze nasza zmienna lista ma dodac do siebie zmienna x
 
-3. Aby posortowac liste mozemy uzyc methody sort() -> '''lista.sort()'''. Ta metoda posortuje nam
+3. Aby posortowac liste mozemy uzyc methody sort() -> `lista.sort()`. Ta metoda posortuje nam
 rosnaco wartosci w liscie. Teraz nalezy tylko ja wypisac.
 
