@@ -31,23 +31,27 @@ Pamietajmy oczywiscie o dodaniu biblioteki `sys`
       roznica = 13 % 5
       print(roznica)
 
-  wypisze nam **3** (13 / 5 == 2; 13 - (2 * 5) == 3)
+   wypisze nam **3** (13 / 5 == 2; 13 - (2 * 5) == 3)
+
 3. Pamietajcie, zeby najpierw wczytać wszystkie dane do listy a dopiero potem wykonywać
   na niej operacje.
 4. Dodawanie do listy wykonujemy metoda `lista.append(x)` gdzie x jest wartoscia która chcemy
   dodać
 5. Aby sprawdzic czy warto jest liczba calkowita mozecie uzyc nastepujacej funkcji:
+
+      ```
       def is_number(s):
-          try:
-              int(s)
-              return True
-          except ValueError:
-              return False
+        try:
+          int(s)
+          return True
+        except ValueError:
+          return False
 
       x = 5
       napis = "napis"
       is_number(x) # -> zwroci True
       is_number(napis) # -> zwroci False
+      ```
 
-   wystarczy ze przekopiujecie ja do swojego pliku (powyzej miejsca w ktorym chcecie jej użyć)
+   wystarczy ze przekopiujecie ja do swojego pliku (powyzej miejsca w ktorym chcecie jej użyć).
 
