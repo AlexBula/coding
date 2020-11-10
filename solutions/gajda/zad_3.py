@@ -12,10 +12,11 @@ print("\nIlość elementów: " , len(lista))
 #liczby na co piątym indeksie
 i = 0
 for y in lista:
-    index = lista.index(y) % 5
-    if index == 0:
+    print(y)
+    if y % 5 == 0:
         print("Index ", i, " - wartosc ", y)
         i += 5
+    # print(y, )
 
 #Odwrócenie listy
 lista.reverse()
