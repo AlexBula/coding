@@ -53,7 +53,7 @@ TAK
 
 2. Zamiast podawać dane ręcznie do programu możemy podać mu caly plik tekstowy. Zalozmy
 ze w pliku "input.txt" znajduje sie wejscie do programu takie jak powyzej. Aby przekazac
-je do naszego programu wystarczy wykonac w konsoli nastepujaca komende `python moj_program.py < input.txt`. Znak `<` znaczy tutaj
+je do naszego programu wystarczy wykonac w konsoli nastepujaca komende `python moj_program.py < sciezka/do/pliku/input.txt`. Znak `<` znaczy tutaj
 przekazanie naszego pliku do **stdin** naszego programu (standardowego wejscia).
 
 3. Naiwna interpretacja moze korzystac z listy, optymalna wersja powinna za to uzyc struktury set (zbior).
